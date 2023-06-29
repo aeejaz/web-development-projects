@@ -1,0 +1,97 @@
+/* Add CSS here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+}
+
+body {
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.touchin-box1 {
+    background-color: #051536;
+    height:170px;
+    width: 340px;
+    border: 4px solid #FFFFFF;
+    border-radius: 14px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #394660;
+    position: relative;
+}
+
+.touchin-box1 p{
+    background-color: #FFFFFF;
+    font-size: 12px;
+    padding: 3px 13px;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    top: -4px;
+    
+}
+.touchin-box1 .space {
+    padding: 5px;
+    
+}
+
+.touchin-box1 .x {
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    color: #8C9AC2;
+    font-size: 18px;
+}
+
+.touchin-box1 span {
+   color: #FF7601;
+}
+
+.touchin-box1 h3 { 
+   color: #8C9AC2;
+   margin: 22px 0px;
+
+}
+
+.touchin-box1 .website-to-connect{
+    color: #8C9AC2;
+    font-size: 20px;
+    display: flex;
+    
+    list-style-type: none;
+}
+
+li{
+    padding: 5px 25px;
+}
+
+.touchin-box1 ul li a:hover{
+    border-color: #FF6A00;
+    box-shadow: 1px 14px 12px -80px #FF6A00;
+}
+
+
+.container1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #001F61;
+    width: 100%;
+}
+.container2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+}
